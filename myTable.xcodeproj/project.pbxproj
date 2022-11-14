@@ -13,6 +13,8 @@
 		601610BB291E705600E38B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601610B9291E705600E38B24 /* Main.storyboard */; };
 		601610BD291E705900E38B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 601610BC291E705900E38B24 /* Assets.xcassets */; };
 		601610C0291E705900E38B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601610BE291E705900E38B24 /* LaunchScreen.storyboard */; };
+		60C3D43929221E55005BD07A /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C3D43829221E55005BD07A /* banner.png */; };
+		60C3D43B292220E7005BD07A /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C3D43A292220E7005BD07A /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		601610BC291E705900E38B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		601610BF291E705900E38B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		601610C1291E705900E38B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C3D43829221E55005BD07A /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		60C3D43A292220E7005BD07A /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				601610B3291E705600E38B24 /* AppDelegate.swift */,
 				601610B5291E705600E38B24 /* SceneDelegate.swift */,
 				601610B7291E705600E38B24 /* ViewController.swift */,
+				60C3D43A292220E7005BD07A /* MyTableViewCell.swift */,
 				601610B9291E705600E38B24 /* Main.storyboard */,
+				60C3D43829221E55005BD07A /* banner.png */,
 				601610BC291E705900E38B24 /* Assets.xcassets */,
 				601610BE291E705900E38B24 /* LaunchScreen.storyboard */,
 				601610C1291E705900E38B24 /* Info.plist */,
@@ -128,6 +134,7 @@
 				601610C0291E705900E38B24 /* LaunchScreen.storyboard in Resources */,
 				601610BD291E705900E38B24 /* Assets.xcassets in Resources */,
 				601610BB291E705600E38B24 /* Main.storyboard in Resources */,
+				60C3D43929221E55005BD07A /* banner.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				601610B8291E705600E38B24 /* ViewController.swift in Sources */,
+				60C3D43B292220E7005BD07A /* MyTableViewCell.swift in Sources */,
 				601610B4291E705600E38B24 /* AppDelegate.swift in Sources */,
 				601610B6291E705600E38B24 /* SceneDelegate.swift in Sources */,
 			);
